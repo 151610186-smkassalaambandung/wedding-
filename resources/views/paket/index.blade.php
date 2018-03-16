@@ -7,27 +7,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Wedding organizer</title>
+<title>Wedding Organizer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <meta name="keywords" content="Wedding Venue Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
-<link href="k/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('k/css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
 <!-- css -->
-<link rel="stylesheet" href="k/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('k/css/style.css')}}" type="text/css" media="all" />
 <!--// css -->
 <!-- font-awesome icons -->
-<link href="k/css/font-awesome.css" rel="stylesheet"> 
+<link href="{{asset('k/css/font-awesome.css')}}" rel="stylesheet"> 
 <!-- //font-awesome icons -->
+<!-- gallery -->
+<link rel="stylesheet" href="{{asset('k/css/lightbox.css')}}">
+<!-- //gallery -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
-<script src="k/js/jquery-1.11.1.min.js"></script>
-<script src="k/js/bootstrap.js"></script>
+<script src="{{asset('k/js/jquery-1.11.1.min.js')}}"></script>
+<script src="{{asset('k/js/bootstrap.js')}}"></script>
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){     
@@ -48,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="container">
                     <div class="header-top-grids">
                         <div class="agileits-logo">
-                            <h1><a href="">WO <span>Wedding Organizer</span></a></h1>
+                            <h1><a href="/home">WO <span>Wedding Organizer</span></a></h1>
                         </div>
                         <div class="top-nav">
                             <nav class="navbar navbar-default">
@@ -64,10 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-                                    <nav>
+                                     <nav>
                                         <ul class="nav navbar-nav">
                                             <li class="active"><a href="/home">Home</a></li>
-                                            <li><a href="{{ route('paket.index') }}">Paket</a></li>
+                                            <li><a href="{{ route('paket.index')}}">Paket</a></li>
                                             <li><a href="{{ route('galeri.index') }}">Galeri</a></li>
                                         
                                         </ul>
@@ -87,63 +90,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="clearfix"> </div>
                 </div>
             </div>
-            <div class="w3layouts-banner">
-                <div class="text-center">
-                    <div class="w3-banner-info">
-                        <div class="w3l-banner-text">
-                            <h2>Wedding Organizer</h2>
-                            <p>We create your special day</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w3ls-banner-info-bottom">
-                <div class="container">
-                    <div class="banner-address">
-                        <div class="col-md-4 banner-address-left">
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> Jln. Soekarno Hatta No.487.</p>
-                        </div>
-                        <div class="col-md-4 banner-address-left">
-                            <p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:luxury.wo@gmail.com"> luxury.wo@gmail.com</a></p>
-                        </div>
-                        <div class="col-md-4 banner-address-left">
-                            <p><i class="fa fa-phone" aria-hidden="true"></i> 081910131819</p>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                </div>
+            <div class="wthree-heading">
+                <h2>Paket</h2>
             </div>
         </div>
     </div>
-   
-    <!-- //banner-bottom -->
-    <!-- services -->
-  
-    <!-- //services -->
-    <!-- services-bottom -->
+    <!-- //banner -->
+    <!-- gallery -->
     
-                        <div class="services-right-bottom-bottom">
-                            <div class="services-bottom-icon">
-                                <i class="fa fa-asterisk" aria-hidden="true"></i>
-                            </div>
-                            <div class="services-bottom-info">
-                                <h5>Luxury Wedding Package & Organizer</h5>
-                                <p>DECORATION • COSTUM • MAKE-UP & HAIR DO • SOUND SYSTEM • MOBIL PENGANTIN • MC • UNDANGAN • MUSIC & ENTERTAINMENT • CATERING • SOUVENIR • PHOTOGRAPHY & VIDEO • PROTOCOLER • UPACARA ADAT 
-.</p>
-                            </div>
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-6 wthree-services-left">
-                    <img src="images/6.jpg" alt="" />
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </div>
-    </div>
-    <!-- //services-bottom -->
+    <!-- //gallery -->      
     <!-- footer -->
     <footer>
         <div class="container">
@@ -151,11 +106,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-md-4 agile-footer-grid">
                     <h4>Contact</h4>
                     <div class="agile-footer-info">
-                        <p>E-Mail     : luxury.wo@gmail.com / info@luxury-wo.com </p>
-                        <p>Telepon    : 081910131819 / 081910114108 / 0816610800  </p>
+                        <p>E-Mail : luxury.wo@gmail.com / info@luxury-wo.com</p>
+                        <p>Telepon : 081910131819 / 081910114108 / 0816610800</p>
                     </div>
                 </div>
-                <div class="col-md-4 agile-footer-grid">
+           <div class="col-md-4 agile-footer-grid">
                     <h4>Recent Photo</h4>
                     <div class="agile-post-grids">
                         <div class="agile-post-grid">
@@ -175,20 +130,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                     </div>
                 </div>
-                
-                    
     </footer>
     <!-- //footer -->
     <!-- copyright -->
     <div class="agileits-w3layouts">
         <div class="container">
-            <p>© 2017 Wedding Organizer. All rights reserved </a></p>
+            <p>© 2017 Wedding Organizer</a></p>
         </div>
     </div>
     <!-- //copyright -->
     <!-- jarallax -->
-    <script src="js/jarallax.js"></script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="k/js/jarallax.js"></script>
+    <script src="k/js/SmoothScroll.min.js"></script>
     <script type="text/javascript">
         /* init Jarallax */
         $('.jarallax').jarallax({
@@ -218,7 +171,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
     </script>
 <!-- //here ends scrolling icon -->
-<script src="js/modernizr.custom.js"></script>
-
+<script src="k/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+    });
+</script>
 </body> 
 </html>
