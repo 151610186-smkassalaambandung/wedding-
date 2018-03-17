@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 	//Route diisi disini
 	Route::resource('galeri', 'GaleriController');
 	Route::resource('paket', 'PaketController');
+	Route::group(['prefix'=>'admin', 'middleware'=>['auth','role:admin']], function(){
+	Route::resource('datagaleri', 'DataGaleriController');
+	Route::resource('datapaket', 'DataPaketController');
+});

@@ -38,7 +38,8 @@
                     <ul class="nav navbar-nav">
                          @if (Auth::check())
                         <li><a href="{{ url('/home') }}">Home</a></li>
-                        <li><a href="{{ route('galeri.index') }}"> Galeri</a></li>
+                        <li><a href="{{ route('galeri.index') }}">Galeri</a>
+                        <li><a href="{{ route('datagaleri.index') }}">DataGaleri</a></li>
                         @endif
                     </ul>
 

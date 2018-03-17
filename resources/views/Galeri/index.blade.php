@@ -88,7 +88,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                     </div>
                     <div class="clearfix"> </div>
-                </div>
+                </div>0
             </div>
             <div class="wthree-heading">
                 <h2>Our Gallery</h2>
@@ -102,7 +102,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="gallery-grids">
                     <div class="col-md-4 gallery-grid">
                         <div class="grid">
-                            <figure class="effect-apollo">    
+                            <figure class="effect-apollo">  
+
                             <a class="example-image-link" href="{{asset('k/images/g1.jpg')}}"
                                  data-lightbox="example-set" data-title="10-10-10">
                                     <img src="{{asset('k/images/g1.jpg')}}" alt="" />
@@ -112,96 +113,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </figure>
                         </div>
                     </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                            <a class="example-image-link" href="{{asset('k/images/g2.jpg')}}" data-lightbox="example-set" data-title="11-11-11">
-                                    <img src="{{asset('k/images/g2.jpg')}}" alt="" />
-                                    <figcaption>
-                                    </figcaption>   
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                            <a class="example-image-link" href="{{asset('k/images/g3.jpg')}}" data-lightbox="example-set" data-title="12-12-12">
-                                    <img src="{{asset('k/images/g3.jpg')}}" alt="" />
-                                    <figcaption>
-                                    </figcaption>       
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                            <a class="example-image-link" href="{{asset('k/images/g4.jpg')}}" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="{{asset('k/images/g4.jpg')}}" alt="" />
-                                    <figcaption>
-                                    </figcaption>   
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                                <a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="images/g5.jpg" alt="" />
-                                    <figcaption>
-                                    </figcaption>   
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                                <a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="images/g6.jpg" alt="" />
-                                    <figcaption>
-                                    </figcaption>       
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                                <a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="images/g2.jpg" alt="" />
-                                    <figcaption>
-                                    </figcaption>   
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                                <a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="images/g4.jpg" alt="" />
-                                    <figcaption>
-                                    </figcaption>   
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-md-4 gallery-grid">
-                        <div class="grid">
-                            <figure class="effect-apollo">
-                                <a class="example-image-link" href="images/g3.jpg" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-                                    <img src="images/g1.jpg" alt="" />
-                                    <figcaption>
-                                    </figcaption>       
-                                </a>
-                            </figure>
-                        </div>
-                    </div>
+                    
+                    
                     <div class="clearfix"> </div>
-                    <script src="js/lightbox-plus-jquery.min.js"> </script>
+                    <script src="k/js/lightbox-plus-jquery.min.js"> </script>
             </div>
         </div>
     </div>
