@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class datapaket extends Model
 {
-   protected $fillable = ['nama paket'];
-    protected $visible = ['nama paket'];
+   protected $fillable = ['namapaket','cover'];
+    protected $visible = ['namapaket','cover'];
     public  $timestamps = true;
 }

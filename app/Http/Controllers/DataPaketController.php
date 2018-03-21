@@ -15,7 +15,7 @@ class DataPaketController extends Controller
     public function index(request $request)
     {
         // 
-        $datapaket = datapaket::all();
+        $datapaket = Datapaket::all();
         return view('datapaket.index',compact('datapaket'));
     }
 
@@ -40,7 +40,7 @@ class DataPaketController extends Controller
     {
         //
          $datapaket=new datapaket;
-        $datapaket->nama=$request->a;
+        $datapaket->namapaket=$request->a;
         if($request->hasfile('cover')){
             $datapakets=$request->file('cover');
             $extension=$datapakets->getClientOriginalExtension();
@@ -91,7 +91,7 @@ class DataPaketController extends Controller
     {
         //
          $datapaket = datapaket::findOrFail($id);
-         $datapaket->nama=$request->a;
+         $datapaket->namapaket=$request->a;
         if($request->hasfile('cover')){
             $datapakets=$request->file('cover');
             $extension=$datapakets->getClientOriginalExtension();

@@ -15,7 +15,8 @@ class CreateDatapaketsTable extends Migration
     {
         Schema::create('datapakets', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nama paket');
+            $table->string('namapaket');
+            $table->string('cover')->nullable;
             $table->timestamps();
         });
     }

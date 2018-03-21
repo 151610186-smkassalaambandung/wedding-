@@ -16,7 +16,7 @@ class DataGaleriController extends Controller
     {
         // 
         $datagaleri = datagaleri::all();
-        return view('datapaket.index',compact('datapaket'));
+        return view('datagaleri.index',compact('datagaleri'));
     }
 
     /**

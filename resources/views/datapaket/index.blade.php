@@ -13,17 +13,19 @@
                 <thead>
             <tr>
                 <th>Nama</th>
+                <th>Gambar</th>
                 <th colspan="3">Action</th>
             </tr>
             </thead>
             <body>
                     @foreach($datapaket as $data)
                     <tr>
-                        <td>{{$data->nama}}</td>
+                        <td>{{$data->namapaket}}</td>
+<td><img src="{{asset('/img/'.$data->cover.'')}}" height="100px" width="100px"></td>
 <td><a href="{{ route('datapaket.edit', $data->id)}}" class="btn btn-primary">Ubah</a></td>
 
         <td>
-       <form class="delete" action="{{route('paketgaleri.destroy',$data->id)}}" method="post">
+       <form class="delete" action="{{route('datapaket.destroy',$data->id)}}" method="post">
                             
                             <input type="hidden" name="_method" value="DELETE">
                             <input type="hidden" name="_token" >

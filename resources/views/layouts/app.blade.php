@@ -39,7 +39,8 @@
                          @if (Auth::check())
                         <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="{{ route('galeri.index') }}">Galeri</a>
-                        <li><a href="{{ route('datagaleri.index') }}">DataGaleri</a></li>
+                        <li><a href="{{ route('datagaleri.index') }}">Data Galeri</a></li>
+                        <li><a href="{{ route('datapaket.index') }}">Data Paket</a></li>
                         @endif
                     </ul>
 

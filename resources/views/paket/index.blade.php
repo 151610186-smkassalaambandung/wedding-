@@ -92,53 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="wthree-heading">
                 <h2>Paket</h2>
-                <div class="gallery">
-                <article class="wrapper  center">
-                    <h2>Paket WO (Simple)</h2>
-                    <small>(Rp.110.800.000)</small>
-                    <hr style="margin:50px 0;"/>
-                     <div class="container">
-                        <h3>1.  Paket Makeup</h3>
-                        •   Make up  dan hairdo / jilbab<br/>
-                        •   Kebaya beskap pengantin akad dan resepsi<br/>
-                        •   Bunga dan accesoris<br/>
-                        •   Makeup dan haird do / jilbab orang tua pengantin<br/>
-                        •   2 buah kain samping bawahan untuk ibu<br/>
-                        •   Beskap orangtua pengantin<br/>
-                        •   Make up, hairdo, beskap dan kebaya 4 pasang pager ayu dan pager bagus<br/><br/>
-                        <h3>2.  Music entertainment</h3>
-                        ( 1 Vocal,1 piano/Keyboard,1 Saxophone/Biola,1bass dan sound system 3000 watt )
-                        <h3>3.  MC akad resepsi</h3>
-                        <h3>4.  Dokumentasi  Photography dan Video</h3>
-                        -   1 hari prwedding 8jam<br/>
-                        -   1 hari akad resepsi<br/><br/>
-                        <b>Output :</b>
-                        -   2 album ukuran 8rp<br/>
-                        -   1 keping DVD video liputan acara<br/>
-                        -   2 buah pembesaran 16rp<br/>
-                        -   5 galeri foto  ukuran 5r
-                        <h3>5.  Wedding Organizer 6 personil</h3>
-                        -   rundown acara pernikahan<br/>
-                        -   meeting pembentukan panitia<br/>
-                        -   koordinasi vendor<br/>
-                        -   konsultasi acara<br/>
-                        -   arrangement event<br/>
-                        -   handly talky<br/>
-                        -   wedding organizer team<br/>
-                        -   vip service<br/><br/>
-                        <h3>6.  Catering (1000 porsi) dan Dekorasi</h3>
-                        -   6 menu utama<br/>
-                        -   4 food stall<br/>
-                        -   3 dessrt
-                        <br/>
-                        <br/>
-                        <i>* Coffee break 100 porsi, ice carving, dekorasi pelaminan bunga hidup, taman pelaminan, janur, meja penerima tamu, tempat uang, buffe pengantin.</i>
-                        <br/>
-                        <br/>
-                        <b>Bonus :</b><br/><br/>
-                        -   Mobil Pengantin<br/>
-                        -   Perawatan cpw<br/><br/>
-                        <a class="pilihpaket popup" href="https://api.whatsapp.com/send?phone=+62%20819-1013-1819&amp;text=Paket%20WO%20Simple%20(Rp.110.800.000)%20-%20https://www.luxury-wo.com"><img src="file/img/icon/wa.png" alt="icon" class="icon small"/> Pilih Paket</a>
+              
                     </div>
                 </article>
             </div>
@@ -147,9 +101,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <!-- //banner -->
     <!-- gallery -->
-    -+
-    +
-
 
 
 
